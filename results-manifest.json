@@ -112,6 +112,38 @@
     "category": null
   },
   {
+    "path": "outputs/beam/valorbrain/rag/100k.json",
+    "dataset": "beam",
+    "run_name": "valorbrain-sota-effortmax",
+    "memory": "valorbrain",
+    "mode": "rag",
+    "split": "100k",
+    "total_queries": 400,
+    "correct": 323,
+    "accuracy": 0.7545614979660206,
+    "ingestion_time_ms": 0.0,
+    "ingested_docs": 0,
+    "avg_retrieve_time_ms": 2415.8,
+    "avg_context_tokens": 12547.4,
+    "category": null
+  },
+  {
+    "path": "outputs/beam/valorbrain/rag/10m.json",
+    "dataset": "beam",
+    "run_name": "valorbrain-10m-effortmax",
+    "memory": "valorbrain",
+    "mode": "rag",
+    "split": "10m",
+    "total_queries": 200,
+    "correct": 112,
+    "accuracy": 0.5115481601731602,
+    "ingestion_time_ms": 898632.1,
+    "ingested_docs": 2,
+    "avg_retrieve_time_ms": 2798.7,
+    "avg_context_tokens": 12940.4,
+    "category": null
+  },
+  {
     "path": "outputs/lifebench/hindsight/rag/en.json",
     "dataset": "lifebench",
     "run_name": "hindsight",
@@ -160,22 +192,6 @@
     "category": null
   },
   {
-    "path": "outputs/locomo/hybrid-search/rag/locomo10.json",
-    "dataset": "locomo",
-    "run_name": "hybrid-search",
-    "memory": "hybrid-search",
-    "mode": "rag",
-    "split": "locomo10",
-    "total_queries": 1540,
-    "correct": 1218,
-    "accuracy": 0.7909090909090909,
-    "ingestion_time_ms": 645739.8,
-    "ingested_docs": 272,
-    "avg_retrieve_time_ms": 219.3,
-    "avg_context_tokens": 22156.5,
-    "category": null
-  },
-  {
     "path": "outputs/locomo/locomo-hindsight/rag/locomo10.json",
     "dataset": "locomo",
     "run_name": "locomo-hindsight",
@@ -189,6 +205,22 @@
     "ingested_docs": 272,
     "avg_retrieve_time_ms": 964.1,
     "avg_context_tokens": 36235.4,
+    "category": null
+  },
+  {
+    "path": "outputs/locomo/hybrid-search/rag/locomo10.json",
+    "dataset": "locomo",
+    "run_name": "hybrid-search",
+    "memory": "hybrid-search",
+    "mode": "rag",
+    "split": "locomo10",
+    "total_queries": 1540,
+    "correct": 1218,
+    "accuracy": 0.7909090909090909,
+    "ingestion_time_ms": 645739.8,
+    "ingested_docs": 272,
+    "avg_retrieve_time_ms": 219.3,
+    "avg_context_tokens": 22156.5,
     "category": null
   },
   {
